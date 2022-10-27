@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p tsconfig.json",
     "build:watch": "tsc -p tsconfig.json --watch",
-    "fuzz-parse-simple": "jazzer ./dist/fuzz-parse-simple.js corpus -- -max_total_time=60"
+    "fuzz-parse-simple": "pnpm build && jazzer ./dist/fuzz-parse-simple.js corpus -- -max_total_time=60"
   },
   "keywords": [],
   "author": "",
