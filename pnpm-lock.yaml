@@ -10,7 +10,7 @@ specifiers:
 
 dependencies:
   '@jazzer.js/core': 1.7.0
-  typescript: 5.0.2
+  typescript: 5.7.3
   ultrahtml: 1.2.0
 
 devDependencies:
@@ -1025,9 +1025,9 @@ packages:
       safe-buffer: 5.2.1
     dev: false
 
-  /typescript/5.0.2:
-    resolution: {integrity: sha512-wVORMBGO/FAs/++blGNeAVdbNKtIh1rbBL2EyQ1+J9lClJ93KiiKe8PmFIVdXhHcyv44SL9oglmfeSsndo0jRw==}
-    engines: {node: '>=12.20'}
+  /typescript/5.7.3:
+    resolution: {integrity: sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==}
+    engines: {node: '>=14.17'}
     hasBin: true
     dev: false
 
