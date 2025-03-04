@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@jazzer.js/core': ^1.0.1
+  '@jazzer.js/core': ^2.0.0
   '@types/node': ^18.11.7
   prettier: ^3.0.0
   tiny-invariant: ^1.3.1
@@ -9,7 +9,7 @@ specifiers:
   ultrahtml: ^1.0.0
 
 dependencies:
-  '@jazzer.js/core': 1.7.0
+  '@jazzer.js/core': 2.1.0
   typescript: 5.8.2
   ultrahtml: 1.2.0
 
@@ -179,27 +179,27 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /@jazzer.js/bug-detectors/1.7.0:
-    resolution: {integrity: sha512-ytGXkiH0G0XWXt1sm2KKdSWwEpOIN+SIe2wT6uvIO2mrUqQmLL2LnINeahL5T8L2b0+dafYDGZeVxElgsgH5eA==}
+  /@jazzer.js/bug-detectors/2.1.0:
+    resolution: {integrity: sha512-rFERKoSkLNZq52rRCXQKRqLX9Bfkb2+tzMrI/tDQ27//HwfdaJUej4MPKXg3YxFSGAEtshNNSXAn2liJmyLWpQ==}
     engines: {node: '>= 14.0.0', npm: '>= 7.0.0'}
     deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     dependencies:
-      '@jazzer.js/core': 1.7.0
-      '@jazzer.js/hooking': 1.7.0
+      '@jazzer.js/core': 2.1.0
+      '@jazzer.js/hooking': 2.1.0
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /@jazzer.js/core/1.7.0:
-    resolution: {integrity: sha512-HGSNb8HxPjK/z84I3CZUmXd/+TqTfjjGOgXKzHK9/fmwUltLLuUcbSTkc1RDHrgT4z2EF7Tlkeo51Vp648f8Ag==}
+  /@jazzer.js/core/2.1.0:
+    resolution: {integrity: sha512-9uTuKlZ0WyC8evq++46TYg0SFszGx7X4/Y8nVsFmIg9sc0ceO9fmE1qg8KOafkzM9DvSdv+JL2UYWxnmgE1CJQ==}
     engines: {node: '>= 14.0.0', npm: '>= 7.0.0'}
     deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     hasBin: true
     dependencies:
-      '@jazzer.js/bug-detectors': 1.7.0
-      '@jazzer.js/fuzzer': 1.7.0
-      '@jazzer.js/hooking': 1.7.0
-      '@jazzer.js/instrumentor': 1.7.0
+      '@jazzer.js/bug-detectors': 2.1.0
+      '@jazzer.js/fuzzer': 2.1.0
+      '@jazzer.js/hooking': 2.1.0
+      '@jazzer.js/instrumentor': 2.1.0
       istanbul-lib-coverage: 3.2.2
       istanbul-lib-report: 3.0.1
       istanbul-reports: 3.1.7
@@ -209,8 +209,8 @@ packages:
       - supports-color
     dev: false
 
-  /@jazzer.js/fuzzer/1.7.0:
-    resolution: {integrity: sha512-FDTsHzUQva3G6ETowxAlBNY+aXc4J+XzKcTRtxQdIIW9wPli2qxUjlVCkPHfKCfOcdNseAygR/AIfrXfrB0iWw==}
+  /@jazzer.js/fuzzer/2.1.0:
+    resolution: {integrity: sha512-WroUAGH1+AFoI+5kRGOjvh9+1GsYEmCinvEt9yF0E0pBTeadssCG6Y8adeYh6W0rum2LjPsjVfLEWMunRLt/Ew==}
     engines: {node: '>= 14.0.0', npm: '>= 7.0.0'}
     deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     requiresBuild: true
@@ -223,8 +223,8 @@ packages:
       - supports-color
     dev: false
 
-  /@jazzer.js/hooking/1.7.0:
-    resolution: {integrity: sha512-1uGhdaRVAyNTnCuThcYFnjKKWIlVnobM+LUVoRHAFe+TVFyfnV2wCKCjoj+kjZtt4fD0lL9gjkKSafbiKNzsnA==}
+  /@jazzer.js/hooking/2.1.0:
+    resolution: {integrity: sha512-caNQslD27mxkYfi7woVEN98rbPL41Ezn/pGkMB/ghcBWcG0jCJDqacRJX4Gv8ypfIhemDJEocL26Ld2XSx07Pw==}
     engines: {node: '>= 14.0.0', npm: '>= 7.0.0'}
     deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     dependencies:
@@ -233,15 +233,15 @@ packages:
       - supports-color
     dev: false
 
-  /@jazzer.js/instrumentor/1.7.0:
-    resolution: {integrity: sha512-YPMzL0mH8+UKGwe0r/7vhq3DsxHOxhkeqTusYTajDycwz6/51y3JC20NhX3qs1Jyd7xpIo7ANhVN0dU4V1MwMw==}
+  /@jazzer.js/instrumentor/2.1.0:
+    resolution: {integrity: sha512-ewvx2DKczcwusO5XlRYaMO757cFDKY+mEbS2g5k81Razq3AA/uRVU1/Ei/1FZeg9tKCuaTq9Gwl+9bdA9ER8Og==}
     engines: {node: '>= 14.0.0', npm: '>= 7.0.0'}
     deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     dependencies:
       '@babel/core': 7.26.7
       '@babel/generator': 7.26.5
-      '@jazzer.js/fuzzer': 1.7.0
-      '@jazzer.js/hooking': 1.7.0
+      '@jazzer.js/fuzzer': 2.1.0
+      '@jazzer.js/hooking': 2.1.0
       istanbul-lib-hook: 3.0.0
       istanbul-lib-instrument: 6.0.3
       proper-lockfile: 4.1.2
