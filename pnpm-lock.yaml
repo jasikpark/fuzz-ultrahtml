@@ -11,7 +11,7 @@ specifiers:
 dependencies:
   '@jazzer.js/core': 1.7.0
   typescript: 5.8.2
-  ultrahtml: 1.2.0
+  ultrahtml: 1.6.0
 
 devDependencies:
   '@types/node': 18.19.103
@@ -1033,8 +1033,8 @@ packages:
     hasBin: true
     dev: false
 
-  /ultrahtml/1.2.0:
-    resolution: {integrity: sha512-vxZM2yNvajRmCj/SknRYGNXk2tqiy6kRNvZjJLaleG3zJbSh/aNkOqD1/CVzypw8tyHyhpzYuwQgMMhUB4ZVNQ==}
+  /ultrahtml/1.6.0:
+    resolution: {integrity: sha512-R9fBn90VTJrqqLDwyMph+HGne8eqY1iPfYhPzZrvKpIfwkWZbcYlfpsb8B9dTvBfpy1/hqAD7Wi8EKfP9e8zdw==}
     dev: false
 
   /undici-types/5.26.5:
